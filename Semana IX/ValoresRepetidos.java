@@ -4,9 +4,11 @@ import java.util.Arrays;
 public class ValoresRepetidos {
 	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
+		System.out.println("Insira o tamanho dos arrays: ");
+		int N = teclado.nextInt();
 		int cont = 0;
-		int [] arr  =  new int[2];
-		int [] arr2 =  new int[2];
+		int [] arr  =  new int[N];
+		int [] arr2 =  new int[N];
 		System.out.println("Insira os valores no primeiro Array:");
 
 		for (int i = 0; i < arr.length; i++){
