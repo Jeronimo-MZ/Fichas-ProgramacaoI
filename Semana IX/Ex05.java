@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
-public class OcorrenciasNoArray {
+//  OcorrenciasNoArray
+public class Ex05 {
 	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
 		System.out.println("Insira o número de elementos do array: ");

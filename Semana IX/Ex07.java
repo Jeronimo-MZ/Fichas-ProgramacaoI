@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
-public class CopiaArray {
+//CopiaArray
+public class Ex07 {
 	public static void main(String[] args) {
 		Scanner teclado =  new Scanner(System.in);
 

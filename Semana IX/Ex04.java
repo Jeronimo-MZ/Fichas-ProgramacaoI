@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Ex4 {
-	public static void main (string args[]) {
+	public static void main (String args[]) {
 		int[] T = preencherVector();
 		imprimirQuantidadePares(T);
 		imprimirArray(T);
@@ -11,7 +11,7 @@ public class Ex4 {
 		Scanner teclado =  new Scanner(System.in);
 		System.out.println("Insira o tamanho do Array: ");
 		int n = teclado.nextInt();
-		int T[n];
+		int T[] =  new int[n];
 
 		for (int i =0; i < T.length; i++) {
 			System.out.print("T[" + i + "]: ");
@@ -31,8 +31,8 @@ public class Ex4 {
 	}
 
 	public static void imprimirArray(int[] T){
-		for (int i =0; i < T.length i++) {
-			System.out.prinltn("T["+ i+ "] = " + T[i]);
+		for (int i =0; i < T.length; i++) {
+			System.out.println("T["+ i+ "] = " + T[i]);
 		}
 	}
 }

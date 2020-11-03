@@ -1,7 +1,8 @@
 import java.util.Scanner;
 import java.util.Arrays;
 
-public class Ordenacao {
+// Ordenacao
+public class Ex15 {
 	public static void main(String args[]) {
 		Scanner teclado =  new Scanner(System.in);
 		System.out.println("Nota: Insira valores ordenados para cada vector!");
@@ -33,23 +34,25 @@ public class Ordenacao {
 
 
  	public static int[] ordenar(int M[], int N[]) {
- 		int posM = 0;	// M
- 		int posN = 0; // N
- 		int i = 0; //  res
- 		int res[] = new int[M.length+N.length];
 
+ 		int posM = 0;
+ 		int posN = 0; 
+ 		int i = 0; 
+ 		int res[] = new int[M.length+N.length];
  		while (posM < M.length || posN < N.length) {
  			if (posM < M.length && posN < N.length) {
+ 				// COMPARACAO
 
 	 			if (M[posM] < N[posN]) {
 	 				res[i] = M[posM];
 	 				i++;
-	 				posM++;
+	 				posM++; 
 	 			}else {
 	 				res[i] = N[posN];
 	 				posN++;
 	 				i++;
 	 			}
+
  			} else if (posN >= N.length){
  				for (;posM < M.length; posM++){
  					res[i] = M[posM];

@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
-public class SomaVectores {
+// SomaVectores
+public class Ex08 {
 	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
 		int arr[], arr2[],soma[];

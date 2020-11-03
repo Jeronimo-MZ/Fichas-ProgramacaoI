@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
-public class Troca {
+// Troca
+public class Ex11 {
 	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
 		int [] arr = new int[20];

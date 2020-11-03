@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import java.util.Arrays;
-
-public class ArrayVinteElementos {
+//ArrayVinteElementos
+public class Ex06 {
 	public static void main(String args[]) {
 		Scanner teclado = new Scanner(System.in);
 		int A[] = new int[20];
@@ -24,9 +24,9 @@ public class ArrayVinteElementos {
 		media = soma / A.length;
 
 		System.out.println(Arrays.toString(A));
-		System.out.println("Maior Valor = " + maior);
-		System.out.println("Menor Valor = " + menor);
 		System.out.println("Soma = " + soma);
 		System.out.println("Média = " + media);
+		System.out.println("Maior Valor = " + maior);
+		System.out.println("Menor Valor = " + menor);
 	}
 }
